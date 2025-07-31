@@ -9,9 +9,9 @@ export default function Layout({ children }) {
           <nav className="navbar-container">
             {/* Left links */}
             <ul className="nav-section">
-              <li className="nav-item active"><a href="#">Home</a></li>
-              <li className="nav-item"><a href="#about">About</a></li>
-              <li className="nav-item"><a href="#service">Service</a></li>
+              <li className="nav-item active"><a href="#">Inicio</a></li>
+              <li className="nav-item"><a href="#about">Sobre</a></li>
+              <li className="nav-item"><a href="#service">Portifólio</a></li>
             </ul>
 
             {/* Logo centered */}
@@ -21,9 +21,9 @@ export default function Layout({ children }) {
 
             {/* Right links */}
             <ul className="nav-section">
-              <li className="nav-item"><a href="#resume">Resume</a></li>
-              <li className="nav-item"><a href="#project">Project</a></li>
-              <li className="nav-item"><a href="#contact">Contact</a></li>
+              <li className="nav-item"><a href="#resume">Avaliações</a></li>
+              <li className="nav-item"><a href="#project">Projetos</a></li>
+              <li className="nav-item"><a href="#contact">Contato</a></li>
             </ul>
           </nav>
         </div>

@@ -1,7 +1,20 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ @font-face {
+    font-family: 'Lufga Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lufga Regular'), url('../src/assets/LufgaFont/LufgaRegular.woff') format('woff');
+    }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Lufga Regular', sans-serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
@@ -14,61 +27,28 @@ body {
   padding: 1rem;
 }
 
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-  background: #fff;
-}
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-.btn {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  border: none;
-  background: #ff6600;
-  color: white;
-  text-decoration: none;
-  border-radius: 1rem;
-  cursor: pointer;
-  font-weight: 600;
-}
-.btn:hover {
-  background: #e65c00;
-}
-
-
-/* Footer */
-.footer {
-  background: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: auto;
-}
-
+/* Navbar estilizada */
 .header {
   padding: 1rem 0;
 }
+
 .navbar-container {
   background: #111;
-  border-radius: 1.5rem;
+  border-radius: 1.9rem;
   padding: 0.5rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 88%;
+  margin: 0 auto;
 }
+
 .nav-section {
   display: flex;
   gap: 1rem;
   list-style: none;
 }
+
 .nav-item a {
   display: block;
   padding: 0.5rem 1rem;
@@ -78,10 +58,18 @@ body {
   font-weight: 600;
   transition: background 0.3s;
 }
+
 .nav-item a:hover {
   background: rgba(255,255,255,0.1);
 }
+
 .nav-item.active a {
   background: #ff6600;
-  color: #fff;
+  border-radius: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
 }
