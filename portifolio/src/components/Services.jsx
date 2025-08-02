@@ -1,22 +1,31 @@
 
 import React from 'react';
 import './Services.css'; // Certifique-se que o CSS está sendo importado aqui ou globalmente
+import img1 from '../assets/Gabinete Pc.png';
+import img2 from '../assets/Cadeira.png';
+import img3 from '../assets/Churrasqueira.png';
+import img4 from '../assets/Pistola de ar quente.png'; // Exemplo de outra imagem, se necessário
 
 const services = [
   {
     id: 1,
-    title: 'UX/UI Design',
-    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fnoticias.unisanta.br%2Fblog-unisanta%2Fdia-do-designer-grafico-saiba-a-importancia&psig=AOvVaw3cfoC-TnoKXwWVedIKaeuJ&ust=1754016277592000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiY9vqJ5o4DFQAAAAAdAAAAABAE',
+    title: 'Pistola de Ar Quente',
+    image: img4, // Substitua com o caminho correto da imagem
   },
   {
     id: 2,
-    title: 'Web Development',
-    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fnoticias.unisanta.br%2Fblog-unisanta%2Fdia-do-designer-grafico-saiba-a-importancia&psig=AOvVaw3cfoC-TnoKXwWVedIKaeuJ&ust=1754016277592000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiY9vqJ5o4DFQAAAAAdAAAAABAE',
+    title: 'Cadeira Autoregulavel',
+    image: img2, // Substitua com o caminho correto da imagem
   },
   {
     id: 3,
-    title: 'Brand Identity',
-    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fnoticias.unisanta.br%2Fblog-unisanta%2Fdia-do-designer-grafico-saiba-a-importancia&psig=AOvVaw3cfoC-TnoKXwWVedIKaeuJ&ust=1754016277592000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiY9vqJ5o4DFQAAAAAdAAAAABAE',
+    title: 'Churrasqueira portatil',
+    image: img3, // Substitua com o caminho correto da imagem
+  },
+   {
+    id: 4,
+    title: 'Gabinete Gamer',
+    image: img1, // Substitua com o caminho correto da imagem
   },
 ];
 
@@ -42,3 +51,4 @@ export default function Services() {
     </section>
   );
 }
+
