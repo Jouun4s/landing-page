@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import Logo from '../assets/Logo_site.png'; // Substitua com o nome real
 
 export default function Layout({ children }) {
   return (
@@ -16,7 +17,7 @@ export default function Layout({ children }) {
 
             {/* Logo centered */}
             <div className="logo">
-              <img src="/assets/jcrea-logo.svg" alt="JCREA" style={{ height: '2rem' }} />
+              <img src={Logo} alt="LOGO" />
             </div>
 
             {/* Right links */}

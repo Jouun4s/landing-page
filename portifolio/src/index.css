@@ -69,6 +69,15 @@ body {
   border-radius: 1.5rem;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3.5rem;
+}
+
 /*footer estilizada */
 .footer {
   text-align: center;
